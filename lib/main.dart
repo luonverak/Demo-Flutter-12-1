@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 
+import 'view/google_map_screen.dart';
 import 'view/gride_screen.dart';
 import 'view/home_screen.dart';
 import 'view/image_slide.dart';
@@ -16,7 +17,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return const MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: ImageSlideScreen(),
+      home: MapSample(),
     );
   }
 }
